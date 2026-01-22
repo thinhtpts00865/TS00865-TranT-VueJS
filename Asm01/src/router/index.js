@@ -13,10 +13,10 @@ import SignUp from '../views/SignUp.vue'
 const isAuthenticated = false;
 
 const routes = [
-    { path: '/', name: 'home', component: OnProgress },
+    { path: '/', name: 'home', component: BlogList },
     { path: '/login', name: 'login', component: Login },
     { path: '/signup', name: 'signup', component: SignUp },
-    { path: '/blog', name: 'blogList', component: OnProgress }, //
+    { path: '/blog', name: 'blogList', component: BlogList }, //
     { path: '/blog/post', name: 'blogPost', component: BlogPost },
     { path: '/blog/post/:id', name: 'blogDetail', component: BlogDetail },
     {
